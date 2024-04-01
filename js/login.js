@@ -6,8 +6,8 @@ document.getElementById("btn-submit").addEventListener("click", function () {
   console.log(email, pass);
 
   if (email === "asd@gmail.com" && pass === "asdf") {
-    console.log("valid user");
+    window.location.href = "bank.html";
   } else {
-    console.log("invelid user");
+    alert("invelid user");
   }
 });
