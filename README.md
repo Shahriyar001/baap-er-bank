@@ -1,4 +1,4 @@
-to start in local host 
+to start in localhost 
 run 
 ```
 npm run dev
